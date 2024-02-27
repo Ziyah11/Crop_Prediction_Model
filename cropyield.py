@@ -9,7 +9,7 @@ import joblib
 from sklearn.linear_model import LinearRegression
 
 
-data = pd.read_excel('crop yield data sheet.xlsx')
+data= pd.read_excel('crop yield data sheet.xlsx')
 st.markdown("<h1 style = 'color: #416D19; text-align: center; font-family: helvetica '>CROP PREDICTION MODEL</h1>", unsafe_allow_html = True)
 st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: cursive '>Built By Oluyemi Isaiah(Ziyah)</h4>", unsafe_allow_html = True)
 
